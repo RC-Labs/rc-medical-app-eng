@@ -1,7 +1,9 @@
 const newsletterData = {
   heading: 'Subscribe to our newsletter',
   sub: 'Stay up to date with our offer.',
-  privacyPolicy: 'I accept the privacy policy.',
+  accept: 'I accept the ',
+  privacyPolicy: 'privacy policy.',
+  PPLink: '/privacy-policy',
   inputPlaceholder: 'your e-mail address',
   buttonValue: 'subscribe',
 };

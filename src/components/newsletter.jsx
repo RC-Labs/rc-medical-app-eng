@@ -10,7 +10,7 @@ class NewsletterForm extends Component {
         <input type="button" value={newsletterData.buttonValue} />
         <div className="accept">
           <input type="checkbox" name="" id="accept-PP" />
-          <label htmlFor="accept-PP">{newsletterData.privacyPolicy}</label>
+          <label htmlFor="accept-PP">{newsletterData.accept}<a href={newsletterData.PPLink}>{newsletterData.privacyPolicy}</a></label>
         </div>
       </form>
     )

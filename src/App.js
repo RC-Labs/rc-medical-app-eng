@@ -14,6 +14,7 @@ import Contact from "./routes/Contact";
 import Products from "./routes/Products";
 import Product from "./routes/Product";
 import Downloads from "./routes/Downloads";
+import PrivacyPolicy from './routes/PrivacyPolicy';
 import { Footer } from "./components/footer";
 
 import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
@@ -37,6 +38,7 @@ function App() {
           <Header />
           <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/privacy-policy" exact component={PrivacyPolicy} />
             <Route path="/products" exact component={Products} />
             <Route path="/products/" component={Product} />
             <Route path="/testimonials" exact component={Trusted} />
