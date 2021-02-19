@@ -1,0 +1,25 @@
+.liaison {
+  margin-top: 40px;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .text {
+    width: 40%;
+    padding-right: 40px;
+
+    @media (max-width: 1024px) {
+      width: 50%;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

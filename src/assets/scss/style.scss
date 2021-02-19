@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@200;400;600;800&display=swap');
+
+@import "reset";
+@import "variables";
+@import "parts/burger";
+@import "parts/header";
+@import "parts/driver";
+@import "parts/about";
+@import "parts/icon-boxes";
+@import "parts/newsletter";
+@import "parts/partners";
+@import "parts/contact-boxes";
+@import "parts/footer";
+@import "parts/liaison";
+@import "parts/counter";
+@import "parts/trusted";
+@import "parts/contact";
+@import "parts/product";
+@import "parts/downloads";
+
+@import "parts/product-list";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: $dark-gray;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px;
+
+  @media (max-width: 1400px) {
+    width: 100%;
+    margin: 0;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 20px;
+  }
+}
+
+button,
+.button,
+input[type=button] {
+  display: inline-block;
+  padding: 20px 40px;
+  background: $color-gradient;
+  color: white;
+  font-weight: 800;
+  background-size: 200% auto;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    background-position: right;
+  }
+
+  @media (max-width: 425px) {
+    width: 100%;
+  }
+}
+
+.small-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background: white;
+  color: $secondary;
+  font-weight: 400;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: $color-gradient;
+}
+
+input[type=text],
+input[type=tel],
+textarea {
+  background: white;
+  padding: 20px;
+  border: 1px solid $light-gray;
+  margin-bottom: 20px;
+}
+
+
+.liaison-form,
+.contact-form {
+  width: 60%;
+  position: relative;
+
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  label {
+    color: transparent;
+    position: absolute;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    width: 100%;
+  }
+
+  input[type=button] {
+    @media(max-width: 580px) {
+      width: 100%;
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.6 !important;
+  box-shadow: 0 0 5px #00000030;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: $primary !important;
+  opacity: 1 !important;
+}

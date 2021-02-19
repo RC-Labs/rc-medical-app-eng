@@ -1,0 +1,135 @@
+footer {
+  background: $dark-gray;
+  color: white;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    @media (max-width: 580px) {
+      flex-wrap: wrap;
+    }
+
+    .links-box {
+      width: 25%;
+
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width:580px) {
+        width: 50%;
+      }
+
+      @media (max-width:375px) {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    a {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 0;
+      transition: left 0.2s;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        background-image: $menu-arrow-white;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+      }
+
+      &:hover {
+        left: 5px;
+      }
+    }
+  }
+
+  .footer-contact-info {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width:580px) {
+      width: 100%;
+      border-bottom: 1px solid $med-gray;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 100%;
+      height: 50px;
+      background-image: $logo-white;
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @media (max-width:580px) {
+        width: 50%;
+        margin-bottom: 20px;
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: 800;
+        color: white;
+      }
+
+      .address {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .copyright {
+    background: $dark-gray;
+    height: 40px;
+
+    .container {
+      padding: 0 40px !important;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid $med-gray;
+
+      span {
+        color: $light-gray;
+        font-size: 14px;
+        font-weight: 200;
+      }
+    }
+  }
+}
