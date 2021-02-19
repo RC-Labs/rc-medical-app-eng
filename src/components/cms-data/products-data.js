@@ -8,7 +8,7 @@ import Product6 from "../../assets/images/products/product-6.png"
 
 const categories = [
   {
-    name: 'Wszystkie produkty',
+    name: 'All products',
     pageID: '/products/',
   }, {
     name: 'Protective gloves',
@@ -121,10 +121,11 @@ const products = [
 
 const productsHeading = 'Products';
 const catHeading = 'Products';
+const allCategory = 'All products';
 const backButton = {
   name: 'back',
   link: '/products'
 }
 
 
-export { products, categories, productsHeading, catHeading, backButton };
+export { products, categories, productsHeading, catHeading, backButton, allCategory };

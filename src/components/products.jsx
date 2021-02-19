@@ -1,6 +1,6 @@
 
 import { Component } from 'react';
-import { products, categories, catHeading } from './cms-data/products-data';
+import { products, categories, catHeading, allCategory } from './cms-data/products-data';
 
 
 export class ProductsSection extends Component {
@@ -8,7 +8,7 @@ export class ProductsSection extends Component {
     super(props);
     this.handler = this.handler.bind(this)
     this.state = {
-      cat: 'Wszystkie produkty'
+      cat: allCategory
     };
   }
   handler(event) {
@@ -79,7 +79,7 @@ class ProductsList extends Component {
     return (
       <div className="product-list">
         <h2>{this.props.passCat}</h2>
-        {  products.filter(product => product.category === this.props.passCat || this.props.passCat === "Wszystkie produkty").map((filteredProduct, index) => (
+        {  products.filter(product => product.category === this.props.passCat || this.props.passCat === allCategory).map((filteredProduct, index) => (
           <ListedProduct link={window.location.origin + filteredProduct.pageID} key={index} src={filteredProduct.image} alt={filteredProduct.alt} name={filteredProduct.name} detail={filteredProduct.category} />
         ))}
       </div>
