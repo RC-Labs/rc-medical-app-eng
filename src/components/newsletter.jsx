@@ -5,7 +5,7 @@ class NewsletterForm extends Component {
   render() {
     return (
       <form action="POST">
-        <label htmlFor="email"></label>
+        <label htmlFor="email">e-mail</label>
         <input type="email" name="email" id="email" placeholder={newsletterData.inputPlaceholder} />
         <input type="button" value={newsletterData.buttonValue} />
         <div className="accept">

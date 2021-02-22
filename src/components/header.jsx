@@ -7,7 +7,7 @@ export class Header extends Component {
     return (
       <header>
         <div className="container">
-          <Link to="/" className='logo'></Link>
+          <Link to="/" className='logo'>logo</Link>
           <nav>
             <Menu />
             <MobileMenu />
