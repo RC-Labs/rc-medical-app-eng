@@ -692,22 +692,22 @@ header .menu a:hover:after {
 
 .newsletter form input[type=email]::-webkit-input-placeholder {
   font-family: 'Raleway', sans-serif;
-  color: #CED2E6;
+  color: #707B98;
 }
 
 .newsletter form input[type=email]:-ms-input-placeholder {
   font-family: 'Raleway', sans-serif;
-  color: #CED2E6;
+  color: #707B98;
 }
 
 .newsletter form input[type=email]::-ms-input-placeholder {
   font-family: 'Raleway', sans-serif;
-  color: #CED2E6;
+  color: #707B98;
 }
 
 .newsletter form input[type=email]::placeholder {
   font-family: 'Raleway', sans-serif;
-  color: #CED2E6;
+  color: #707B98;
 }
 
 .newsletter form input[type=button] {
