@@ -33,7 +33,7 @@ const driverImages = [
     alt: "4",
     heading: "Wide product range",
     text: "In response of our client's needs, we continuously widen our offer with new medical products.",
-    button: "see more",
+    button: "products",
     link: "/products",
   },
 ];
