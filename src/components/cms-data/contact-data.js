@@ -41,9 +41,9 @@ const contactHeading = 'Contact';
 const legalInfo = {
   street: "ul. Mehoffera 10",
   postal: "31-322 Kraków",
-  NIP: "NIP 123 456 78 90",
-  KRS: "KRS 1234567890",
-  REGON: "REGON 123456789",
+  NIP: "NIP 6762503470",
+  KRS: "KRS 0000607445",
+  REGON: "REGON 36394627900000",
 };
 
 export { contacts, formData, contactHeading, legalInfo };
