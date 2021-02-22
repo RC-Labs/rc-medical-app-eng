@@ -687,7 +687,7 @@ header .menu a:hover:after {
   -webkit-box-shadow: 0 0 5px #00000080;
           box-shadow: 0 0 5px #00000080;
   font-family: 'Raleway', sans-serif;
-  color: #707B98;
+  color: #33323A;
 }
 
 .newsletter form input[type=email]::-webkit-input-placeholder {
