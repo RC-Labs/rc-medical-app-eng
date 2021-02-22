@@ -9,7 +9,7 @@ const downloadsData = [
     file: catalogue2021,
     image: catalogueImage,
     title: "Katalog 2021",
-    link: 'katalog-2021.pdf',
+    link: 'https://rcmedical.eu/assets/files/katalog-2021.pdf',
     button: 'download',
   }, {
     file: catalogue2021eng,

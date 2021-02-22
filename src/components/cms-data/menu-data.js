@@ -24,7 +24,7 @@ const menu = [
 
 const lang = {
   name: 'pl',
-  link: 'https://rcmedical.onrender.com/'
+  link: 'https://rcmedical.pl/'
 }
 
 
