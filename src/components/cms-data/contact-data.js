@@ -2,21 +2,21 @@ const contacts = [
   {
     name: "Grzegorz Guzik",
     position: "public procurement",
-    phone: "+48 501 176 792",
+    phone: "+48 724 451 234",
     mail: "grzegorz@rcmedical.pl",
   }, {
     name: "Anna Bat-Ulzii",
     position: "senior trader",
-    phone: "+48 792 893 397",
+    phone: "+48 609 139 705",
     mail: "anna@rcmedical.pl",
   }, {
     name: "Marcin Bendkowski",
     position: "logistics",
-    phone: "+48 603 183 207",
+    phone: "+48 691 017 834",
     mail: "marcin@rcmedical.pl",
   }, {
     name: "Sylwester Bendkowski",
-    position: "id department",
+    position: "IT department",
     phone: "+48 575 644 394",
     mail: "sylwester@rcmedical.pl",
   }, {
