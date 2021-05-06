@@ -24,7 +24,12 @@ const contacts = [
     position: "accounting",
     phone: "+48 739 286 872",
     mail: "ksiegowosc@rcmedical.pl",
-  },
+  },{
+  name: "Cyprian Ptaszek",
+  position: "trader",
+  phone: "+48 665 871 234",
+  mail: "cyprian.ptaszek@rcmedical.pl",
+  }
 ]
 
 const formData = {
