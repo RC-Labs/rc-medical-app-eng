@@ -22,7 +22,7 @@ const contacts = [
   }, {
     name: "Magdalena Wójtowicz",
     position: "accounting",
-    phone: "+48 739 286 872",
+    phone: "+48 691 599 477",
     mail: "ksiegowosc@rcmedical.pl",
   },{
   name: "Cyprian Ptaszek",
