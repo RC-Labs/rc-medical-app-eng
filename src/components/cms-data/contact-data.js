@@ -1,7 +1,7 @@
 const contacts = [
   {
     name: "Grzegorz Guzik",
-    position: "public procurement",
+    position: "public procurement / senior trader",
     phone: "+48 724 451 234",
     mail: "grzegorz@rcmedical.pl",
   }, {
@@ -9,6 +9,11 @@ const contacts = [
     position: "senior trader",
     phone: "+48 609 139 705",
     mail: "anna@rcmedical.pl",
+  }, {
+    name: "Cyprian Ptaszek",
+    position: "trader",
+    phone: "+48 665 871 234",
+    mail: "cyprian.ptaszek@rcmedical.pl",
   }, {
     name: "Marcin Bendkowski",
     position: "logistics",
@@ -24,11 +29,6 @@ const contacts = [
     position: "accounting",
     phone: "+48 691 599 477",
     mail: "ksiegowosc@rcmedical.pl",
-  },{
-  name: "Cyprian Ptaszek",
-  position: "trader",
-  phone: "+48 665 871 234",
-  mail: "cyprian.ptaszek@rcmedical.pl",
   }
 ]
 
