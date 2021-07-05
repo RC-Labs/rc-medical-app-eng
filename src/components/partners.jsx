@@ -9,7 +9,8 @@ SwiperCore.use(Autoplay);
 
 const logos = partnersLogos.map((element, index) =>
   <SwiperSlide key={`logo-${index}`} className='partner-logo' title={element.alt}>
-    <img src={element.logo} alt={element.alt} />
+    <a target='_blank' rel="noreferrer" href={element.link}><img src={element.logo} alt={element.alt} /></a>
+
   </SwiperSlide>
 )
 

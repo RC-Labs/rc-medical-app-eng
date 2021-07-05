@@ -22,6 +22,15 @@ const references = [
   }, {
     quote: "Deliveries made properly and on time.",
     company: "Kraków Provincial Police Headquarters",
+  }, {
+    quote: "We recommend Rue Cambon sp.z o.o as a reliable supplier and trustworthy business partner",
+    company: "Nursing Home Nazareth in Gliwice",
+  }, {
+    quote: 'We express our satisfaction with the cooperation and recommend Rue Cambon sp.z o.o',
+    company: 'GammaMedica Kraków',
+  }, {
+    quote: "Cooperation with RC Medical was a pleasure for us. We are grateful for the openness and empathy we experienced on the part of the company's employees",
+    company: 'NZOZ of the Congregation of Marian Fathers'
   }
 ];
 

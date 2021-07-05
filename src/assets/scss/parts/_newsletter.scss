@@ -71,9 +71,14 @@
       background: white;
       width: 100%;
       padding: 20px;
+      padding-right: 200px;
       box-shadow: 0 0 5px #00000080;
       font-family: 'Raleway', sans-serif;
       color: $dark-gray;
+
+      @media (max-width: 580px) {
+        padding-right: 20px;
+      }
 
 
       &::placeholder {
@@ -82,7 +87,7 @@
       }
     }
 
-    input[type=button] {
+    button[type=submit] {
       position: absolute;
       top: 0;
       right: 0;
@@ -106,6 +111,19 @@
           color: white;
           text-decoration: underline;
         }
+      }
+    }
+
+    .msg-alert {
+
+      p {
+        // display: flex;
+        // align-items: center;
+        text-align: center;
+        display: block;
+        background: #ffffff80;
+        margin-top: 20px;
+        padding: 20px;
       }
     }
   }

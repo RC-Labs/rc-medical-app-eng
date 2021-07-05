@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { Input } from './input';
 import { address } from './cms-data/footer-data';
-import { formData, contactHeading, legalInfo } from './cms-data/contact-data';
+import { formData, contactHeading, legalInfo, authReps } from './cms-data/contact-data';
 
 const addressBoxes = address.map((element, index) =>
   <div key={`contact-${index}`} className="contact-section">
@@ -13,13 +13,28 @@ const addressBoxes = address.map((element, index) =>
   </div>
 );
 
+const authorizedReps = authReps.map((element, index) =>
+  <div key={`contact-${index}`} className="contact-section">
+    <h3>{element.title}</h3>
+    <span className="contact-info">{element.name}</span>
+    <div className="adress">
+      <span className="contact-info">{element.street}</span>
+      <span className="contact-info">{element.postal}</span>
+    </div>
+    <div className="numbers">
+      <span className="contact-info">{element.state}</span>
+      <span className="contact-info">{element.info}</span>
+    </div>
+  </div>
+)
+
 
 class ContactInfo extends Component {
   render() {
     return (
       <div className="text">
         <div className="contact-section">
-          <h3>RC Medical</h3>
+          <h3>{legalInfo.name}</h3>
           <div className="adress">
             <span className="contact-info">{legalInfo.street}</span>
             <span className="contact-info">{legalInfo.postal}</span>
@@ -31,6 +46,7 @@ class ContactInfo extends Component {
           </div>
         </div>
         {addressBoxes}
+        {authorizedReps}
       </div>
     )
   }

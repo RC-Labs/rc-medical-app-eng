@@ -29,6 +29,11 @@ const contacts = [
     position: "accounting",
     phone: "+48 691 599 477",
     mail: "ksiegowosc@rcmedical.pl",
+  }, {
+    name: "Natasza Zielińska",
+    position: "authorized representative",
+    phone: "+49 1520 768 2503",
+    mail: "info@sanemedi.de",
   }
 ]
 
@@ -44,6 +49,7 @@ const formData = {
 const contactHeading = 'Contact';
 
 const legalInfo = {
+  name: 'RC Medical',
   street: "ul. Mehoffera 10",
   postal: "31-322 Kraków",
   NIP: "NIP 6762503470",
@@ -51,4 +57,15 @@ const legalInfo = {
   REGON: "REGON 36394627900000",
 };
 
-export { contacts, formData, contactHeading, legalInfo };
+const authReps = [
+  {
+    name: 'Sanemedi Handel GmbH',
+    title: 'Authorized representative',
+    street: 'Heilige - Grab-Strasse 27/28',
+    postal: '02828 Görlitz',
+    state: 'Amtsgericht Dresden HRB 40981',
+    info: 'USt-ID-Nr.: DE340221051',
+  }
+]
+
+export { contacts, formData, contactHeading, legalInfo, authReps };
